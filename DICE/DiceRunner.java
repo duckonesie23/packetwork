@@ -6,10 +6,10 @@ public class DiceRunner {
         d.roll();
         int n = d.getTotal();
         System.out.println(n);
-        for(int i = 0;i<=100;i++){
-            d.roll();
-            n = d.getTotal();
-            System.out.println(n);
-        }
+        
+        d.roll();
+        n = d.getTotal();
+        System.out.println(n);
+        
     }
 }
